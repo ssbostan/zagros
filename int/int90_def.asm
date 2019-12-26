@@ -3,7 +3,7 @@
 	; ==================== ZagrOS ====================
 	; Zagros Open Source Operating System
 	; Saeid Bostandoust (ssbostan@linuxmail.org)
-    ; Bostandoust.IR
+	; Bostandoust.IR
 	; ==================== ZagrOS ====================
 
 	; ================ int 90h define ================
