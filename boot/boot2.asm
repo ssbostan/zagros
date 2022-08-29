@@ -6,7 +6,7 @@
 	; Bostandoust.IR
 	; ====================== ZagrOS ======================
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
 	#make_bin#
 
@@ -27,9 +27,9 @@
 	#si=0#
 	#di=0#
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
-	
+
 
 	; ==================== bootloader ====================
 
@@ -123,7 +123,7 @@
 	mov		dl, 53d
 	int		10h
 
-	mov		ah, 02h					
+	mov		ah, 02h
 	mov		bh, 00h
 	mov		dh, 09h
 	mov		dl, 1bh

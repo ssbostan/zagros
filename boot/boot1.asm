@@ -6,7 +6,7 @@
 	; Bostandoust.IR
 	; ====================== ZagrOS ======================
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
 	#make_boot#
 
@@ -27,7 +27,7 @@
 	#si=0#
 	#di=0#
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
 
 
@@ -93,7 +93,7 @@
 
 		mov		ah, 13h
 		mov		al, 01h
-		mov		bh, 00h	
+		mov		bh, 00h
 		mov		bl, 07h
 		mov		ch, 00h
 		mov		cl,	[BOOT_ERROR_LEN]
@@ -107,7 +107,7 @@
 
 		jmp		0ffffh:0000h
 
-		hlt	 
+		hlt
 
 	; =================== first sector ===================
 

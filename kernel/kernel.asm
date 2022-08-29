@@ -6,7 +6,7 @@
 	; Bostandoust.IR
 	; ====================== ZagrOS ======================
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
 	#make_bin#
 
@@ -27,7 +27,7 @@
 	#si=0#
 	#di=0#
 
-	; ================ precompile section ================
+	; ================ preassemble section ================
 
 
 

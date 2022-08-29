@@ -7,7 +7,7 @@ romimage: file="/usr/share/bochs/BIOS-bochs-latest", address=0x00000000, options
 vgaromimage: file="/usr/share/bochs/VGABIOS-lgpl-latest"
 boot: floppy
 floppy_bootsig_check: disabled=1
-floppya: type=1_44, 1_44="zagros-v004.img", status=inserted, write_protected=0
+floppya: type=1_44, 1_44="zagros.img", status=inserted, write_protected=0
 # no floppyb
 ata0: enabled=true, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
 ata0-master: type=none
